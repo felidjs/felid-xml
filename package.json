@@ -26,6 +26,9 @@
     "url": "https://github.com/felidjs/felid-xml/issues"
   },
   "homepage": "https://github.com/felidjs/felid-xml#readme",
+  "dependencies": {
+    "fast-xml-parser": "^3.14.0"
+  },
   "devDependencies": {
     "felid": "^0.0.3",
     "injectar": "^1.3.0",
@@ -34,12 +37,12 @@
     "snazzy": "^8.0.0",
     "standard": "^14.3.1"
   },
+  "engines": {
+    "node": ">= 10.0"
+  },
   "standard": {
     "env": [
       "jest"
     ]
-  },
-  "dependencies": {
-    "fast-xml-parser": "^3.14.0"
   }
 }
